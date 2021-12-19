@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Formulário</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body"> 
+            <form action="" method="post" enctype="multipart/form-data">
+            <label for="name" class="name">
+                Nome:
+                <input type="text" name="name" class="name-input">
+            </label>
+
+            <label for="email" class="email">
+                Email:
+                <input type="email" name="email" class="email-input">
+            </label>
+
+            <label for="age" class="age">
+                Idade:
+                <input type="number" name="age" min="12" class="age-input">
+            </label>
+
+            <label for="calendar" class="calendar">
+                Data de Nascimento:
+                <input type="date" name="calendar" class="calendar-input">
+            </label>
+
+            <label for="network" class="network">
+                Onde você possui conta:
+                <input type="checkbox" name="Instagram" class="network-check">
+                Instagram
+                <input type="checkbox" name="Facebook" class="network-check">
+                Facebook
+                <input type="checkbox" name="Youtube" class="network-check">
+                Youtube
+            </label>
+
+            <label for="sex" class="sex">
+                Sexo:
+                <input type="radio" name="sexo" class="sex-check">
+                Masculino
+                <input type="radio" name="sexo" class="sex-check">
+                Feminino
+            </label>
+
+            <label for="eyes" class="eyes">
+                Cor dos olhos:
+                <input type="color" name="eyes" class="eyes-input">
+            </label>
+
+            <label for="bio" class="bio">
+                Biografia:
+                <input type="text" name="bio" class="bio-input">
+            </label>
+
+            <label for="profile" class="profile">
+                Foto do perfil
+                <input type="file" name="profile" accept="image/*" class="profile-input">
+            </label>
+
+            <label for="tel" class="tel">
+                Telefone:
+                <input type="number" name="tel" class="tel-input">
+            </label>
+
+            <label for="link" class="link">
+                Link do perfil do Facebook
+                <input type="url" name="link" class="link-input">
+            </label>
+
+            <label for="pass" class="pass">
+                Senha
+                <input type="password" name="pass" min="6" max="8" class="pass-input">
+            </label>
+
+            <button class="button" type="reset">Limpar</button>
+            <button class="button" type="submit">Enviar dados</button>
+
+        </form>
+</body>
+
+</html>
